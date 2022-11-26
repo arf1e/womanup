@@ -1,4 +1,4 @@
-import { db, storage } from './firebase';
+import { db, storage } from '../config/firebase';
 import { query, collection, updateDoc, doc, onSnapshot, addDoc, deleteDoc } from 'firebase/firestore';
 import { TodoType } from '../types/todo';
 import { getDownloadURL, ref, StorageReference, uploadBytes } from 'firebase/storage';

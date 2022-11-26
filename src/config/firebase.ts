@@ -5,10 +5,10 @@ import { getStorage } from 'firebase/storage';
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_API_KEY,
   authDomain: 'womanup-backend-9ab48.firebaseapp.com',
-  projectId: process.env.REACT_APP_PROJECT_ID,
+  projectId: 'womanup-backend-9ab48',
   storageBucket: 'womanup-backend-9ab48.appspot.com',
   messagingSenderId: '760434050530',
-  appId: process.env.REACT_APP_APP_ID,
+  appId: '1:760434050530:web:84d038de1cf4b797c8a5bb',
 };
 
 const app = initializeApp(firebaseConfig);
