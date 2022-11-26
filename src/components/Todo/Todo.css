@@ -1,0 +1,83 @@
+.todo {
+  border-radius: 4px;
+  border: 1px solid rgb(226, 181, 181);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  transition: 0.3s;
+}
+
+.todo--completed {
+  border-color: rgb(24, 131, 24); 
+  opacity: 0.5;
+}
+
+.todo--outdated {
+  border-color: rgb(255, 54, 47);
+}
+
+.todo--ok {
+  border-color:rgb(52, 71, 113)
+}
+
+
+.todo__description {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.todo__deadline {
+  font-size: 14px;
+}
+
+.todo__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.todo__status {
+  font-size: 12px;
+  align-self: flex-end;
+}
+
+.todo__status--completed {
+  color:rgb(24, 131, 24)
+}
+
+.todo__status--outdated {
+  color: rgb(255, 54, 47);
+}
+
+.todo__status--ok {
+  color: rgb(52, 71, 113);
+}
+
+.todo__controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.todo__toggler {
+  cursor: pointer;
+}
+
+.todo__toggle {
+  margin-left: 8px;
+}
+
+.todo__edit-btn {
+  background-color: #baccfa;
+  color: rgb(63, 63, 165);
+  width: 240px;
+}
+
+.todo__edit-btn:hover {
+  background-color:rgb(63, 63, 165);
+  color: white;
+}

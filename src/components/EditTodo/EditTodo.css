@@ -1,0 +1,94 @@
+.todo-form__button {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.todo-form {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.todo-form__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.todo-form__button--cancel {
+  border: 1px solid rgb(255, 83, 83);
+  background: white;
+  color: rgb(255, 83, 83);
+}
+
+.todo-form__button--cancel:hover,
+.todo-form__buton--cancel:focus {
+  background: rgb(255, 83, 83);
+  color: white;
+}
+
+.todo-form__field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.todo-form__field-label {
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+.todo-form__field--title {
+  flex: 1.5;
+  margin-right: 32px;
+}
+
+.todo-form__input {
+  border: 1px solid #baccfa;
+  padding: 8px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.todo-form__input:active,
+.todo-form__input:hover,
+.todo-form__input:focus {
+  border: 1px solid rgb(63, 63, 165);
+  outline: none;
+}
+
+.todo-form__input--textarea {
+  resize: none;
+}
+
+.todo-form__primary {
+  display: flex;
+}
+
+.todo-form__submit-btn {
+  background-color: #baccfa;
+  color: rgb(63, 63, 165);
+  width: 160px;
+}
+
+.todo-form__submit-btn:hover,
+.todo-form__submit-btn:focus {
+  background-color: rgb(63, 63, 165);
+  color: white;
+}
+
+.todo-form__button--delete {
+  background:rgb(255, 83, 83);
+  color: white;
+  width: 140px;
+}
+
+.todo-form__button--delete:hover,
+.todo-form__button--delete:focus {
+  background:rgb(191, 14, 14); 
+}
+
+.todo-form__controls {
+  display: flex;
+  justify-content: space-between;
+}

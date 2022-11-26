@@ -1,0 +1,18 @@
+.button {
+  height: 32px;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  border-radius: 4px;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button:disabled {
+  opacity: 0.2
+}
+
+.button:disabled:hover {
+  cursor:not-allowed;
+}

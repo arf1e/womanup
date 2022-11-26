@@ -1,0 +1,47 @@
+.attachment {
+  width: 200px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  background: white;
+  border: 1px solid #baccfa;
+  padding: 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  position: relative;
+  transition: 0.3s;
+}
+
+.attachment:hover {
+  background: rgb(63, 63, 165);
+  border-color:rgb(63, 63, 165)
+}
+
+.attachment__filename {
+  font-size: 14px;
+  font-weight: medium;
+  color: black;
+  text-align: center;
+}
+
+.attachment:hover .attachment__filename {
+  color: white;
+}
+
+.attachment__clear {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background:white;
+  position: absolute;
+  text-align: center;
+  border: none;
+  top: -16px;
+  right: -16px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.attachment__clear:hover {
+  transform: scale(1.2);
+}
