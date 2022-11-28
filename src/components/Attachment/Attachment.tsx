@@ -7,6 +7,10 @@ type Props = {
   onDelete?: (attachment: AttachmentType) => void;
 };
 
+/**
+ * React Component rendering a single attachment.
+ * @component
+ */
 const Attachment = ({ attachment, onDelete }: Props): ReactElement => {
   const { url, originalFilename } = attachment;
   return (

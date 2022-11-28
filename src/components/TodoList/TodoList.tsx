@@ -5,13 +5,20 @@ import AddNewTodo from '../AddNewTodo';
 import Container from '../Container';
 import Todo from '../Todo/Todo';
 
+/**
+ * List of todos. Sets up ws connection to backend on mount.
+ * @component
+ */
+
 const TodoList = () => {
   const [todos, setTodos] = useState<TodoType[]>([]);
+
   useEffect(() => {
     const subscribeToTodos = getAllTodos(setTodos);
     const unsubscribe = subscribeToTodos();
     return unsubscribe;
   }, []);
+
   return (
     <Container>
       <h1>Womanup TodoList</h1>

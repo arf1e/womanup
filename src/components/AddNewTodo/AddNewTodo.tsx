@@ -10,7 +10,8 @@ const ACTIVE = 'ACTIVE';
 type STATES = typeof IDLE | typeof ACTIVE;
 
 /**
- * React Component rendering a form for adding new todo.
+ * A button which activates form to create a new todo
+ * @component
  */
 const AddNewTodo = () => {
   const [state, setState] = useState<STATES>(IDLE);

@@ -25,6 +25,10 @@ const todoContainerStatusMapper = {
   [TODO_OK]: 'todo--ok',
 };
 
+/**
+ * React Component rendering a todo.
+ * @component
+ */
 const Todo = ({ todo }: Props) => {
   const [state, setState] = useState<STATES>(VIEWING);
 

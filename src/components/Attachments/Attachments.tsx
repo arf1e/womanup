@@ -10,6 +10,10 @@ type Props = {
   onDelete?: (attachment: AttachmentType) => void;
 };
 
+/**
+ * A list of attachments
+ * @component
+ */
 const Attachments = ({ attachments = [], loading = false, edit = false, onDelete }: Props): ReactElement | null => {
   if (loading) {
     return <p className="attachments-title">Файлы загружаются...</p>;

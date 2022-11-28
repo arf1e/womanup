@@ -21,6 +21,10 @@ const initialValues = {
   attachments: [],
 };
 
+/**
+ * React Component rendering a form for update/create a todo.
+ * @component
+ */
 const EditTodo = ({ onClose, onSubmit, todo = initialValues }: Props) => {
   /*
     Normally i'd use here formik/yup instead of a bunch of useStates

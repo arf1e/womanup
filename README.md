@@ -4,7 +4,7 @@
 
 ### Деплой
 
-Задеплоен через now [вот здесь](https://egorushque.vercel.app/)
+Задеплоен через now [вот здесь](https://womanup.egorushque.space/)
 
 ### Локальный запуск
 
